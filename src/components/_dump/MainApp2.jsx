@@ -1,5 +1,5 @@
 import React from 'react';
-import { loginWithGoogle, logoutUser } from '../../authappwrite';
+import { loginWithGoogle, logoutUser } from '../../appwrite/authappwrite';
 import { BrowserRouter as Router, Routes, Route, Link, Navigate } from 'react-router-dom';
 import Home from '../../.pages/Home';
 import Route1 from '../../.pages/Route1';

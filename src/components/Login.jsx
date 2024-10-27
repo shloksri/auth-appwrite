@@ -1,4 +1,4 @@
-import { loginWithGoogle } from '../authappwrite.js'
+import { loginWithGoogle } from '../appwrite/authappwrite.js'
 
 const Login = () => {
     return (

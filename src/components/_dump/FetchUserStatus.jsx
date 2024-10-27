@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { useAuth } from '../../context/AuthContext.jsx'
-import { getUser } from '../../authappwrite.js'
+import { getUser } from '../../appwrite/authappwrite.js'
 
 
 const FetchUserStatus = () => {

@@ -1,4 +1,4 @@
-import { logoutUser } from '../authappwrite.js'
+import { logoutUser } from '../appwrite/authappwrite.js'
 import { useUser } from "../context/UserContext.jsx";
 
 

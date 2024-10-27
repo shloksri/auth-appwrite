@@ -1,6 +1,6 @@
 // src/Auth.js
 import React, { useState, useEffect } from 'react'
-import { loginWithGoogle, logoutUser, getUser } from './authappwrite.js'
+import { loginWithGoogle, logoutUser, getUser } from './appwrite/authappwrite.js'
 import Login from './components/Login.jsx'
 import Logout from './components/Logout.jsx'
 

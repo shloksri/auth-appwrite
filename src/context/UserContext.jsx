@@ -1,6 +1,6 @@
 // UserContext.js
 import React, { createContext, useContext, useState, useEffect } from 'react';
-import { getUser, logoutUser } from '../authappwrite.js';
+import { getUser, logoutUser } from '../appwrite/authappwrite.js';
 
 const UserContext = createContext();
 
@@ -31,12 +31,6 @@ export const UserProvider = ({ children }) => {
 
         }
     }, [user])
-
-    // const handleLogoutFromContext = async () => {
-    //     await logoutUser();
-    //     setUser(null);
-    //     sessionStorage.removeItem('user');
-    // };
 
     return (
         <UserContext.Provider value={{ user, setUser }}>
